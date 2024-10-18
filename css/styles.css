@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    color:black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    max-width: 50%;
+    margin: auto;
+}
+
+main {
+    padding: 7rem 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hero-img {
+    border-radius: 50%;
+}
+
+.hero-text h1 {
+    font-size: xx-large;
+}
+
+.hero-text h1 span {
+    font-weight: 700;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    align-items: center;
+    margin-bottom: 3.5rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.projects {
+    margin-bottom: 3.5rem;
+}
+
+.projects h2 {
+    margin: 0 0 1.5rem 0;
+    font-weight: 700;
+}
+
+.project-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.project img {
+    margin-bottom: 1rem
+}
+
+.project h3 {
+    margin: 0 0 1rem 0;
+    font-weight: 600
+}
+
+.project p {
+    margin: 0 0 1rem 0;
+}
+
+.tooling {
+    opacity: 0.7;
+}
+
+.project .github-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.experience h2 {
+    margin: 0 0 1.5rem 0;
+    font-weight: 700;
+}
+
+.experience h3 {
+    margin: 0;
+}
+
+.job {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.job-header {
+    margin: 0 0 1rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem
+}
+
+.job-title {
+    font-weight: 600;
+}
+
+.job-title img {
+    width: 30px;
+    height: 30px;
+} 
+
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+li + li {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .hero, .project-cards, .job {
+        grid-template-columns: 1fr;
+    }
+}
