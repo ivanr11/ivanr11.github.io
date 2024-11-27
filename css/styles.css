@@ -23,6 +23,11 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  font-weight: 700;
+  margin: 0 0 1.5rem 0;
+}
+
 a:hover {
   text-decoration: underline;
 }
@@ -63,13 +68,16 @@ a:hover {
   height: 30px;
 }
 
-.projects {
+.about {
   margin-bottom: 3.5rem;
 }
 
-.projects h2 {
-  margin: 0 0 1.5rem 0;
-  font-weight: 700;
+.about .link {
+  color: #6084fa;
+}
+
+.projects {
+  margin-bottom: 3.5rem;
 }
 
 .project-cards {
@@ -113,11 +121,6 @@ a:hover {
 .project .github-icon {
   width: 30px;
   height: 30px;
-}
-
-.experience h2 {
-  margin: 0 0 1.5rem 0;
-  font-weight: 700;
 }
 
 .experience h3 {
